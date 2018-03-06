@@ -1,4 +1,4 @@
-/*Problem: Given an even number ( greater than 2 ), return two prime numbers whose sum will be equal to given number.
+/*Problem Statement: Given an even number ( greater than 2 ), return two prime numbers whose sum will be equal to given number.
 
 Input : 4
 Output: 2 + 2 = 4
