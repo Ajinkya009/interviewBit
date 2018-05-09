@@ -1,3 +1,17 @@
+/*
+Given an unsorted integer array, find the first missing positive integer.
+
+Example:
+
+Given [1,2,0] return 3,
+
+[3,4,-1,1] return 2,
+
+[-8, -7, -6] returns 1
+
+Your algorithm should run in O(n) time and use constant space.
+*/
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -17,7 +31,7 @@ int main() {
     int m,n,v;
     cin >> m;
     vector<int> a;
-    
+
     for(int i = 0; i < m; i++){
         cin >> n;
         a.push_back(n);
